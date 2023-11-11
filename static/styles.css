@@ -1,0 +1,109 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333; /* Change to your desired background color */
+    color: #fff; /* Text color for the header */
+    padding: 10px 0;
+    text-align: right;
+}
+header h2 {
+    text-align: left;
+    
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the header logo */
+header h1 {
+    font-size: 24px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Change to your desired background color */
+    color: #fff; /* Text color for the footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo h2 {
+    font-size: 18px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style social media icons */
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-logo h2 {
+        font-size: 16px;
+    }
+
+    .footer-links ul li {
+        margin-right: 10px;
+    }
+
+    .footer-links ul li a {
+        font-size: 14px;
+    }
+
+    .footer-social a {
+        font-size: 18px;
+    }
+}
